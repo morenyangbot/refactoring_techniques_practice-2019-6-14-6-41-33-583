@@ -9,10 +9,10 @@ public class BannerRender {
     }
 
     boolean isPlatformMac(String platform) {
-        return platform.toUpperCase().indexOf("MAC") > -1;
+        return platform.toUpperCase().contains("MAC");
     }
 
     boolean isBrowserIE(String browser) {
-        return browser.toUpperCase().indexOf("IE") > -1;
+        return browser.toUpperCase().contains("IE");
     }
 }
